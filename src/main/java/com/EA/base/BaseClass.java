@@ -57,7 +57,10 @@ public class BaseClass {
 
 	public static WebDriver getDriver() {
 		// Get Driver from threadLocalmap
+		
+		driver.equals(driver);
 		return driver.get();
+		
 	}
 
 	public void launchApp(String browserName) {
